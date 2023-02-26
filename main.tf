@@ -6,7 +6,7 @@ data "aws_availability_zones" "available" {}
 
 
 
-module "vpc1" {
+module "vpc2" {
   source = "./modules/VPC"
 
   name = "Project_AWS"
