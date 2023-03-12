@@ -13,7 +13,7 @@ module "vpc1" {
   cidr = var.cidr_block
   azs  = data.aws_availability_zones.available.names
   tags = {
-    Terraform   = "true"
+    Terraform   = "false"
     Environment = "dev"
   }
 
