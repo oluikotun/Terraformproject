@@ -1,4 +1,4 @@
-variable "aws_access_key" {
+variable "aws_access_key1" {
   type        = string
   description = "AWS access key"
 }
