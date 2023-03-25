@@ -1,5 +1,5 @@
 locals {
-  prefix = "AWS_project 1"
+  prefix = "AWS_project "
 }
 
 data "aws_availability_zones" "available" {}
